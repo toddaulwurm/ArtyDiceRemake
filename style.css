@@ -1,0 +1,175 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    width: 50vw;
+    margin: auto;
+    min-width: 767px;
+    background-color: #879288;
+}
+
+/* TITLE */
+
+#title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 512px;
+}
+#logoTotal{
+    display: flex;
+}
+#logo {
+    background-color: #336969;
+    border-radius: 5px;
+    height: 30px;
+}
+#title h3 {
+    font-family: 'Kaisei Decol', serif;
+    margin-top: 6px;
+}
+#search {
+    width: 500px;
+    border: 1.5px solid #bab9ba;
+    border-radius: 20px;
+    background-color: #f5f4f6;
+    padding: 3px 0px 3px 10px;
+    margin-top: 10px;
+}
+#title h5 {
+    margin-top: 5px;
+    color: #6c6b6c;
+}
+#title img {
+    height: 25px;
+    margin-top: 5px;
+}
+
+/* nav */
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid black;
+    padding: 5px;
+    min-width: 512px;
+}
+#tabs{
+    text-decoration: none;
+    color: black;
+}
+
+/* headline */
+
+body>h2 {
+    margin: 20px;
+    margin-left: 185px;
+}
+
+/* articles */
+
+#articles {
+    display: flex;
+    width: 512px;
+}
+#mainArticle {
+    display: flex;
+}
+#mainArticleText {
+    color: white;
+    background-color: #ffc6c7;
+    padding: 30px 30px 0px 30px;
+    width: 150px;
+    height: 200px;
+}
+#mainArticleTextLower {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+#discoverArrow {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+#mainArticle>img {
+    height: 230px;
+}
+
+#articleRight {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#singleDie {
+    height: 145px;
+    width: 242px;
+    object-fit: cover;
+}
+#singleDieBanner {
+    height: 36px;
+    color: white;
+    background-color: #ffc6c7;
+    display: flex;
+    padding: 20px 20px;
+    margin-top: 5px;
+}
+#singleArrow {
+    height: 20px;
+}
+
+/* collections */
+
+#collections {
+    height: 150px;
+    background-color: #83274d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.diceProfile>h6{
+    color: white;
+}
+.diceProfile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dicePic {
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* cookie */
+
+#cookieAlert {
+    display: flex;
+    position: fixed;
+    min-width: 700px;
+    bottom: 200px;
+    left: 10vw;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+}
+#cookieAlert>img {
+    height: 30px;
+    margin: 10px;
+}
+#cookieAlert>h6 {
+    margin: 10px 20px 0px 20px;
+}
+#cookieButton {
+    height: 30px;
+    font-size: 10px;
+    width: 110px;
+    margin: 10px 20px 0px 10px;
+    border: 3px solid black;
+    color: white;
+    background-color: #4eb3b3;
+    box-shadow: 3px 3px 0px black;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyBay</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="title">
+        <div id="logoTotal">
+            <img id="logo" src="images/assets/artyDiceLogo.jfif" alt="ArtyDice logo">
+            <h3>ArtyDice</h3>   
+        </div>
+        <form onsubmit="alert(`This is a prototype!`)">
+            <input id="search" type="search" name="search" placeholder="Search for anything!">
+        </form>
+        
+        <img onclick="alert(`Your cart is empty`)" src="images/assets/cart-dark.png" alt="shopping cart">
+    </div>
+
+    <div id="nav">
+        <a href="https://artydice.net/cheat-sheet" target="_blank" id="tabs"><h5>Cheet Sheet</h5></a>
+        <a href="https://artydice.net/shop" target="_blank" id="tabs"><h5>Shop</h5></a>
+        <a href="https://artydice.net/shop/singles" target="_blank" id="tabs"><h5>Singles</h5></a>
+        <a href="https://artydice.net/shop/sets" target="_blank" id="tabs"><h5>Sets</h5></a>
+        <a href="https://artydice.net/get-in-touch" target="_blank" id="tabs"><h5>Get In Touch</h5></a>
+        <a href="https://instagram.com/artydice?utm_medium=copy_link"><img src="images/assets/Glossy-Instagram-icon-PNG.png" target="_blank" id="logo" alt="shopping cart"></a>
+    </div>
+
+    <h2><strong>The Dominion of Deccadent Dice</strong></h2>
+
+    <div id="articles">
+        <div id="mainArticle">
+            <div id="mainArticleText">
+                <h3>Feed your inner Dice Goblin</h3>
+                <div id="mainArticleTextLower">
+                    <a href="https://artydice.net/shop" target="_blank" id="tabs"><h5>Unearth</h5></a>
+                    <img id="discoverArrow" src="images/assets/arrow-light.png" alt="light arrow">
+                </div>
+            </div>
+            <img onmouseover="over(this)" onmouseout="out(this)" src="images/assets/Frozen-Garden.jfif" alt="Frozen Garden dice">
+        </div>
+        <div id="articleRight">
+            <img id="singleDie" src="images/assets/Arabic.jpg" alt="Die with persian numbers">
+            <div id="singleDieBanner">
+                <a href="https://artydice.net/cheat-sheet" target="_blank" id="tabs"><h5>Available with <br/>Persian Numbering!</h5></a>
+                <img id="singleArrow" src="images/assets/arrow-light.png" alt="arrow">
+            </div> 
+        </div>
+    </div>
+
+    <div id="collections">
+        <a href="https://artydice.net/shop/p/pfo55hhcy100xz1yis2p3yue8hel3a" target="_blank"class="diceProfile">
+            <img class="dicePic" src="images/assets/Watercolor-Garden.jfif" alt="Watercolor Garden">
+            <h6>Watercolor Garden</h6>
+        </a>
+        <a href="https://artydice.net/shop/p/hu3jrom27pw8fdhhitightl62fjxk7" target="_blank"class="diceProfile">
+            <img class="dicePic" src="images/assets/Dirty-Arty-55.jfif" alt="Dirty Arty 55">
+            <h6>Dirty Arty 55</h6>
+        </a>
+        <a href="https://artydice.net/shop/p/yk7humznkasl5qke6pbwnqo2g993m5" target="_blank"class="diceProfile">
+            <img class="dicePic" src="images/assets/Dirty-Arty-22.jfif" alt="Dirty Arty 22">
+            <h6>Dirty Arty 22</h6>
+        </a>
+        <a href="https://artydice.net/shop/p/83sdkf35nshxqkwak7084ey5aw806y" target="_blank"class="diceProfile">
+            <img class="dicePic" src="images/assets/Yazd.jfif" alt="Yazd">
+            <h6>Yazd</h6>
+        </a>
+        <a href="https://artydice.net/shop/p/oy2r4276ozy2ajkhnh1ra9rwrjmml0" target="_blank"class="diceProfile">
+            <img class="dicePic" src="images/assets/Royal-Milkbath.jfif" alt="Royal Milkbath">
+            <h6>Royal Milkbath</h6>
+        </a>
+        <a href="https://artydice.net/shop/p/laogjtbc3lpeqqpb39tek92il9v740" target="_blank"class="diceProfile">
+            <img class="dicePic" src="images/assets/Blood-Stone.jfif" alt="Blood Stone">
+            <h6>Blood Stone</h6>
+        </a>
+
+    </div>
+
+    <div id="cookie">
+        <div id="cookieAlert">
+            <img src="images/assets/alert-dark.png" alt="alert">
+            <h6>This site makes use of third-party cookies, by clicking "I accept" you agree to the <br>terms outlined in our <a href="https://en.wikipedia.org/wiki/HTTP_cookie" target="_blank">cookie policy.</a></h6>
+            <button id="cookieButton" onclick="hide(this)"><strong>I accept</strong></button> 
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
